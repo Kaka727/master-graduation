@@ -100,20 +100,20 @@
     \setCJKfamilyfont{kai}{KaiTi} % Kai
 }
 
-\newcommand{\installotf}{
-    %%%% Windows Thesis Fonts
-    \setmainfont{Times New Roman PS Std}
-    \setsansfont{Arial}
-    \setmonofont{Courier New}
-    %%%% Using Adobe Family Fonts
-    \setCJKmainfont[BoldFont={STZhongsong}]{Adobe Song Std}
-    \setCJKsansfont{Adobe Heiti Std} % Hei
-    \setCJKmonofont{Adobe Fangsong Std} % Fangsong
-    %%%% alias
-    \setCJKfamilyfont{song}{Adobe Song Std}
-    \setCJKfamilyfont{hei}{Adobe Heiti Std}
-    \setCJKfamilyfont{fs}{Adobe Fangsong Std} % fang-song
-    \setCJKfamilyfont{kai}{Adobe Kaiti Std} % Kai
+\newcommand{\installOTF}{%
+  \setmainfont{Times New Roman} % could be changed to "Times New Roman PS Std" !!
+  \setsansfont{Arial}
+  \setmonofont{Courier New}
+  \setCJKmainfont[BoldFont={fonts/ADOBEHEITISTD-REGULAR(V5.010).OTF},ItalicFont={fonts/ADOBEKAITISTD-REGULAR.OTF}]{fonts/ADOBEFANGSONGSTDL.OTF}
+  \setCJKsansfont{fonts/ADOBEHEITISTD-REGULAR(V5.010).OTF}
+  \setCJKmonofont{fonts/ADOBEKAITISTD-REGULAR.OTF}
+  \setCJKfamilyfont{song}{fonts/ADOBEFANGSONGSTDL.OTF}
+  \setCJKfamilyfont{hei}{fonts/ADOBEHEITISTD-REGULAR(V5.010).OTF}
+  \setCJKfamilyfont{fs}{fonts/ADOBEFANGSONGSTDL.OTF}
+  \setCJKfamilyfont{kai}{fonts/ADOBEKAITISTD-REGULAR.OTF}
+  \setCJKfamilyfont{li}{fonts/ADOBEKAITISTD-REGULAR.OTF}
+  \setCJKfamilyfont{you}{fonts/ADOBEKAITISTD-REGULAR.OTF}
+  \setCJKfamilyfont{cusong}{STZhongsong}
 }
 
 \newcommand{\installfz}{
